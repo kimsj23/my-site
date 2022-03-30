@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*container */
+.Portfolio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /*wraps cards on smaller screens for responsive design */
+  background-color: rgba(240, 240, 240, 255);
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+}
+
+.Card {
+  background-color: white;
+  height: 25rem;
+  width: 20rem;
+  margin: 2rem;
+  border-radius: 5%;
+  box-shadow: 0 0 2rem 0 blue;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.Card ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-family: Arial;
+  font-size: 0.8rem;
+}
+
+.Card li {
+  margin: 0 0.5rem;
+  padding: 1%;
+}
+
+.Html {
+  background-color: orange;
+}
+
+.Css {
+  background-color: lightblue;
+}
+
+.Javascript {
+  background-color: rgba(255, 255, 0, 0.733);
+}
+
+.React {
+  background-color: rgb(0, 225, 255);
+}
+
+.Card h2 {
+  padding: 0.5rem;
+  font-family: Courier;
+}
+
+.Card p {
+  padding: 0.5rem;
+  font-family: Arial;
+}
+
+.CardImageMain {
+  height: 40%;
+  background-size: cover;
+  margin: 0 0 5% 0;
+  border-radius: 5% 5% 0 0;
+}
+
+.CardImage1 {
+  background-image: url("../../images/stockpic.jpg");
+}
+
+.Portbutton {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 2% 10%;
+  margin: 2% 10%;
+  display: block;
+  text-align: center;
+}
+
+.Portbutton:hover {
+  background-color: gray;
+}

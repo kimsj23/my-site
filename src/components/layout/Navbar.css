@@ -1,0 +1,36 @@
+.header {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+}
+
+.header li {
+  margin-left: 3rem;
+}
+
+.navitems {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.navitems:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px;
+}
