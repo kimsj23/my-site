@@ -28,6 +28,11 @@ function Navbar() {
               About
             </Link>
           </li>
+          <li>
+            <Link to="/contact" className="navitems">
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
